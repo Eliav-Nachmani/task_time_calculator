@@ -7,9 +7,9 @@ import TabsLayout from '../main-components/TabsLayout';
 const MainScreen = () => {
   return (
     <div>
-      <Typography variant="h4" className="app-title">
+      {/* <Typography variant="h4" className="app-title">
         SLX Task Time Calculator
-      </Typography>
+      </Typography> */}
       <Box className="app-container">
         <TabsLayout />
       </Box>
