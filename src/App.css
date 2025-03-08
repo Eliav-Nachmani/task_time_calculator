@@ -1,0 +1,146 @@
+/* src/App.css */
+
+body {
+  font-size: 18px;
+  color: #001c39;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-container {
+  box-shadow: 0px 0px 10px 10px rgba(156, 156, 156, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.app-title {
+  color: #001c39;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.date-box {
+  background-color: #ffffff;
+  color: #001c39;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 2px #1BAFEC;
+  margin-bottom: 20px;
+}
+
+.date-box span {
+  color: #1dafec;
+}
+
+.date-text {
+  font-size: 36px; /* Adjust as needed */
+  color: #1dafec;
+}
+
+.step-box {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: inherit; /* Use inherited text color */
+}
+
+.approval-dates {
+  color: #001c39;
+  margin-top: 1rem;
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px !important; 
+}
+
+.light-blue-date {
+  color: #1dafec;
+  font-weight: 700;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.steps-heading {
+  font-weight: 400;
+  color: #001c39;
+  margin-top: 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  width: 100%;
+}
+
+.full-width-tab {
+  flex: 1;
+  max-width: none;
+}
+
+.field-left-align {
+  text-align: left;
+  padding-top: 24px;
+  color: #001c39;
+}
+
+.field-left-align p {
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.number-fields-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 38px;
+}
+
+.date-field-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.date-field {
+  width: 100%;
+}
+
+.step-date {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* MUI classes overrides */
+.css-5lbw0b-MuiTypography-root {
+  font-weight: 700 !important;
+  color: #001c39;
+  font-size: 3.125rem;
+}
+
+.css-2ulfj5-MuiTypography-root {
+  font-weight: 400 !important;
+  color: #001c39;
+  line-height: 1.5;
+  font-size: 22px;
+}
